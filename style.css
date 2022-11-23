@@ -1,0 +1,103 @@
+.transition{
+    width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s;
+        margin: 10px;
+}
+.trans1{
+    background: red;
+    transition-timing-function: linear;
+    
+}
+.trans1:hover {
+    width: 300px;
+}
+.trans2 {
+    background:peachpuff;
+    transition-timing-function: ease;
+}
+
+.trans2:hover {
+    width: 300px;
+   
+}
+.trans3 {
+    background: blue;
+    transition-timing-function: ease-in;
+}
+
+.trans3:hover {
+    width: 300px;
+}
+.trans4 {
+    background:gray;
+    transition-timing-function: ease-out;
+}
+
+.trans4:hover {
+    width: 300px;
+}
+.trans5 {
+    background: green;
+    transition-timing-function: ease-in-out;
+}
+
+.trans5:hover {
+    width: 300px;
+}
+.transform1{
+    width: 150px;
+        height: 80px;
+        background-color: yellow;
+        -ms-transform: rotate(20deg);
+        
+        transform: rotate(20deg);
+}
+.transform2{
+    width: 150px;
+        height: 80px;
+        background-color: red;
+        -ms-transform: skewX(20deg);
+        
+        transform: skewX(20deg);
+        margin-top: 20px;
+}
+.transform3{
+width: 100px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: scaleY(1.5);
+    transform: scaleY(1.5);
+    margin-top: 20px;
+}
+.grid-container{
+    display: grid;
+    width: 600px;
+    height: 300px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.grid{
+    background-color: red;
+        border: 2px solid #000000;
+        margin: 20px;
+}
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item7 {
+    grid-column: 1/4;
+}
